@@ -2,23 +2,18 @@ body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
+    font-size: 32px;
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
 }
 
 .header {
     background-color: #007765;
     padding: 20px 0;
-}
-
-.nav__button {
-    font-weight: 500;
-    font-size: 24px;
-    color: white;
-    text-decoration: none;
-    margin-right: 10px;
-}
-
-.vertical {
-
+    width: 1219px;
+    margin: 0 auto;
 }
 
 .container {
@@ -32,6 +27,19 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.image {
+    margin: 0;
+    display: block;
+}
+
+.nav__button {
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
 }
 
 .jumbotron .container,
@@ -50,3 +58,45 @@ body {
     margin: 0;
 }
 
+.problem .container, .team .container {
+    background-color: #EEEEEE;
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 64px;
+    color: #007765;
+    text-align: center;
+}
+
+.content__subtitle {
+    padding: 60px 0 20px;
+}
+
+.content__text {
+    padding-bottom: 91px;
+}
+
+.content__text_bold {
+    font-weight: 700;
+}
+
+.hero__text {
+    font-size: 48px;
+    font-weight: 500;
+    font-style: italic;
+    color: white;
+    position: absolute;
+    top: 150px;
+    right: 170px;
+    left: 170px;
+    text-align: center;
+}
+
+.wrapper__text {
+    margin-left: 45px;
+}
+
+.content__text_margin {
+    margin-top: 39px;
+}
