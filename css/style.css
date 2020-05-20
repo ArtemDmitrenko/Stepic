@@ -100,3 +100,53 @@ p, h1, h2, h3, h4, h5, h6 {
 .content__text_margin {
     margin-top: 39px;
 }
+
+.human__name {
+    font-size: 24px;
+    font-weight: 700;
+    color: #007765;
+    margin-top: 10px;
+}
+
+.human__position {
+    font-size: 18px;
+    font-style: italic;
+}
+
+.wrapper1 {
+    margin-top: 40px;
+}
+
+.foto1, .human__name, .human__position {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.human__name {
+    margin-top: 10px;
+}
+
+.team-content {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.wrapper2 {
+    margin-top: 100px;
+    padding-bottom: 120px;
+}
+
+.footer__text {
+    font-size: 18px;
+    width: 540px;
+    color: white;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+
+.footer .container {
+    background-color: #333333;
+    padding: 50px 0 70px 0;
+}
