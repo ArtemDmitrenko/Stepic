@@ -1,0 +1,52 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.header {
+    background-color: #007765;
+    padding: 20px 0;
+}
+
+.nav__button {
+    font-weight: 500;
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.vertical {
+
+}
+
+.container {
+    width: 1219px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 0 55px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.jumbotron .container,
+.hero .container {
+    padding: 0;
+    position: relative;
+}
+
+.title {
+    font-weight: 500;
+    font-size: 72px;
+    color: white;
+    position: absolute;
+    top: 158px;
+    right: 340px;
+    margin: 0;
+}
+
